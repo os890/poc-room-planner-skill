@@ -21,6 +21,7 @@ cp -r room-planner-skill ~/.claude/skills/room-planner
 - `references/clearances.md` – ergonomic distances and typical sizes per room type.
 - `assets/example-living-room.html` – complete reference implementation (4 × 5 m living room). Open it in a browser to see all features.
 - `scripts/check_syntax.py` – extracts the module script from the HTML and runs `node --check`.
+- `samples/living-room/index.html` – sample result.
 
 The page loads three.js from cdn.jsdelivr.net in the browser; everything else is local.
 
